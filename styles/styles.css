@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+}
+body{
+
+	background-color:black;
+}
+#header{
+	margin:7vw auto;
+	display:grid;
+	grid-template-columns: [col1] 33% [col2] 67%;
+	color:white;
+	text-align:center;
+	width:60vw;
+}
+#accountPhoto{
+	height:18vw;
+	width:18vw;
+	border-radius:50%;
+	grid-column-start: col1;
+	grid-column-end: col1;
+	margin:auto;
+	background-color:rgb(10,10,10);
+}
+#accountName{
+	font-size:5vw;
+	grid-column-start: col2;
+	grid-column-end: col2;
+	margin:auto;
+}
+#gridContainer{
+	display:grid;
+	grid-template-areas:
+	"a b c"
+	"d e f"
+	"g h i";
+	margin:0 auto;
+	width:75vw;
+}
+.photo{
+	height:23vw;
+	width:23vw;
+	margin:1vw;
+}
+#photo1{
+	grid-area:a;
+}
+#photo2{
+	grid-area:b;
+}
+#photo3{
+	grid-area:c;
+}
+#photo4{
+	grid-area:d;
+}
+#photo5{
+	grid-area:e;
+}
+#photo6{
+	grid-area:f;
+}
+#photo7{
+	grid-area:g;
+}
+#photo8{
+	grid-area:h;
+}
+#photo9{
+	grid-area:i;
+}
